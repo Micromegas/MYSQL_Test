@@ -93,7 +93,7 @@ public class Window extends javax.swing.JFrame {
          db.createDB("MySQL_Test");
          db.createTable("Registros");
          */
-        db.MySQLConnection("root", "", "MySQL_Test");
+        db.MySQLConnection("root", "21579097", "MySQL_Test");
 
         jButtonConnect.setEnabled(false);
         jButtonDelete.setEnabled(true);
@@ -108,7 +108,7 @@ public class Window extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonRegisterActionPerformed
 
     private void jButtonGetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGetActionPerformed
-        db.MySQLConnection("root", "", "MySQL_Test");
+        db.MySQLConnection("root", "21579097", "MySQL_Test");
         db.getValues("Registros");
         db.closeConnection();
     }//GEN-LAST:event_jButtonGetActionPerformed

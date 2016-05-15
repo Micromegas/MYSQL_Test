@@ -143,7 +143,7 @@ public class Window_Register extends javax.swing.JFrame {
     private void jButtonRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonRegisterActionPerformed
 
         MySQL db = new MySQL();
-        db.MySQLConnection("root", "", "MySQL_Test");
+        db.MySQLConnection("root", "21579097", "MySQL_Test");
         db.insertData("Registros", jTextFieldID.getText(),
                 jTextFieldNombre.getText(),
                 jTextFieldApellido.getText(),
